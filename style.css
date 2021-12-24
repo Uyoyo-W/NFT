@@ -1,0 +1,263 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+body{
+     font-size: 16px; 
+     text-align: center;
+     background-color: hsl(217, 54%, 11%);
+     color: hsl(0, 0%, 100%);
+     margin: 80px 10px 80px 10px;
+}
+
+
+.card {
+     border: 1px solid hsl(216, 50%, 16%);
+     border-radius: 30px;
+     margin: 40px 20px 60px 20px;
+     padding: 10px 20px 0px 20px;
+     background-color: hsl(216, 50%, 16%);
+}
+
+.imgcenter {
+    margin: 10px 10px 10px 1px ;
+    max-width: 100%;
+    border-radius: 10px;
+    min-height: 100%;
+    background: none;
+    background:url("images\image-equilibrium.jpg") no-repeat 0 0;
+  }
+
+  fb-icon{
+    background:url('path/to/image/image.png') no-repeat 0 0;
+}
+
+fb-icon:hover{
+    background:url('path/to/image/image.png') no-repeat 0 -100px;
+}
+
+  .imgcenter:hover {
+      background: hsl(178, 100%, 50%);
+  }
+  .text{
+      text-align: left;
+      /* margin: 0px px; */
+      padding: 2% 2%;
+  }
+
+.equilibrium {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 20px;
+
+}
+
+.equilibrium:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.eqcollection {
+    color: hsl(217, 12%, 51%);
+    padding: 20px 0px 20px 0px;
+}
+
+.ethereum {
+    color: hsl(178, 100%, 50%);
+   /* padding: 70px 10px 20px 0px; */
+    padding: 20px 0px 20px 0px;
+}
+
+.daysleft {
+    color: hsl(217, 12%, 51%);
+    margin: 0px 15px 0px 65px;
+}
+
+hr {
+   border: 1px solid hsl(215, 32%, 27%) ;
+
+   
+}
+
+.avatar {
+    max-width: 100%;
+    max-height: 100%;
+    width: 30px;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+.creation {
+    color: hsl(217, 12%, 51%);
+}
+
+.avatar-text{
+    word-spacing: 2px;
+    margin: 20px 10px;
+
+}
+
+.Jules:hover{
+    color: hsl(178, 100%, 50%)
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    margin: 80px 0px 10px 0px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+/*
+@media all and (min-device-width:736px) and (min-width: 736px)  {
+  body {
+    margin: 40px 60px 40px 60px; 
+   } 
+
+   .card {
+    margin: 40px 20px;
+    display: flex;
+    flex: 20;
+   }
+
+   .imgcenter {
+    margin: 40px 20px 20px 20px ;
+    width: 50vw;
+    height: 100%;
+    border-radius: 30px;
+    min-height: 100%;
+    background: none;
+   
+   }
+
+   .text {
+    margin: 0px 100px;
+    padding: 2% 12%;
+   }
+
+   .daysleft {
+    margin: 0px 15px 0px 465px;
+  }
+
+
+} 
+
+*/
+
+@media all and /* (min-device-width:736px) and */ (min-width: 736px) and (max-width: 1440px){
+    
+/* body{
+    font-size: 16px; 
+    text-align: center;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    margin: 80px 10px 80px 10px;
+}
+*/
+
+/*
+.card {
+    border: 1px solid hsl(216, 50%, 16%);
+    border-radius: 30px;
+    margin: 40px 20px 60px 20px;
+    padding: 10px 20px 0px 20px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.imgcenter {
+   margin: 10px 10px 10px 1px ;
+   max-width: 100%;
+   border-radius: 10px;
+   min-height: 100%;
+   background: none;
+   background:url("images\image-equilibrium.jpg") no-repeat 0 0;
+ }
+
+ fb-icon{
+   background:url('path/to/image/image.png') no-repeat 0 0;
+}
+
+fb-icon:hover{
+   background:url('path/to/image/image.png') no-repeat 0 -100px;
+}
+
+ .imgcenter:hover {
+     background: hsl(178, 100%, 50%);
+ }
+ */
+ .text{
+     text-align: justify;
+     margin: 0px 0px 0px 85px;
+     padding: 2% 20%;
+     display:grid;
+ }
+
+/*
+.equilibrium {
+   color: hsl(0, 0%, 100%);
+   font-size: 18px;
+   font-weight: 300;
+   margin-top: 20px;
+
+}
+
+
+.equilibrium:hover{
+   color: hsl(178, 100%, 50%);
+}
+
+
+.eqcollection {
+   color: hsl(217, 12%, 51%);
+   padding: 20px 0px 20px 0px;
+}
+
+.ethereum {
+   color: hsl(178, 100%, 50%);
+  
+   padding: 20px 0px 20px 0px;
+}
+
+.daysleft {
+   color: hsl(217, 12%, 51%);
+   margin: 0px 15px 0px 65px;
+}
+
+hr {
+  border: 1px solid hsl(215, 32%, 27%) ;
+
+  
+}
+
+.avatar {
+   max-width: 100%;
+   max-height: 100%;
+   width: 30px;
+   border: 2px solid white;
+   border-radius: 100%;
+}
+
+.creation {
+   color: hsl(217, 12%, 51%);
+}
+
+.avatar-text{
+   word-spacing: 2px;
+   margin: 20px 10px;
+
+}
+
+.Jules:hover{
+   color: hsl(178, 100%, 50%)
+}
+
+.attribution { 
+   font-size: 11px; text-align: center; 
+   margin: 80px 0px 10px 0px;
+}
+
+.attribution a { 
+   color: hsl(228, 45%, 44%); 
+}
+
+}
+*/
